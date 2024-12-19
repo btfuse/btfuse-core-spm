@@ -28,17 +28,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BTFuse",
-            url: "https://github.com/btfuse/fuse/releases/tag/ios/core/0.8.12-spm/BTFuse.xcframework.zip",
-            checksum: "338bf324fa66a0270a59d644c5ad0047ebaf1f17"
+            url: "https://github.com/btfuse/fuse/releases/tag/ios/core/0.8.12-spm.2/BTFuse.xcframework.zip",
+            checksum: "c53769fd062406cb7175eeca5b7fba30727658a2"
         ),
         .binaryTarget(
             name: "BTFuseTestTools",
-            url: "https://github.com/btfuse/fuse/releases/tag/ios/core/0.8.12-spm/BTFuseTestTools.xcframework.zip",
-            checksum: "1e11ea1fb58c16e8f44f883f2bafaa73efccdf71"
-        ),
-        .target(
-            name: "BTFuseTestTools",
-            dependencies: ["BTFuse"]
+            url: "https://github.com/btfuse/fuse/releases/tag/ios/core/0.8.12-spm.2/BTFuseTestTools.xcframework.zip",
+            checksum: "c20971e0c088fde9bac9ce1d02d18c07b06a7f83"
         )
     ]
 )
